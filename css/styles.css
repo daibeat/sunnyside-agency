@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container-img {
+  max-width: 100vw;
+  display: block;
+}
+.top-left {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+}
+
+.top-right {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+.centered {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered h1 {
+  font-size: 3rem;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+.centered img {
+  padding-top: 3rem;
+}
+
+#sunny {
+  font-size: 1.8rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  padding: 0.75rem;
+  letter-spacing: 0.06rem;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+#contact {
+  width: 110px;
+  background-color: white;
+  color: hsl(212, 27%, 19%);
+  border-radius: 25px;
+  font-family: "Fraunces", serif;
+  font-size: 12px;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.transform {
+  display: flex;
+}
+
+.transform-text {
+  width: 50vw;
+  margin: 80px 50px 50px 80px;
+}
+
+.transform img {
+  max-width: 50vw;
+  height: 100%;
+}
+
+.transform-text h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 35px;
+}
+.transform p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  color: hsl(232, 10%, 55%);
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+.transform button {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  background: transparent;
+  border: transparent;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: hsl(212, 27%, 19%);
+}
+#transform-btn {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 65%,
+    hsl(51, 100%, 49%) 65%
+  );
+}
+
+#stand-btn {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 65%,
+    hsl(7, 99%, 70%) 65%
+  );
+}
+
+.graphic-sect {
+  display: flex;
+}
+
+.graphic-sect img {
+  max-width: 50vw;
+}
+
+.graphic h3 {
+  color: hsl(167, 40%, 24%);
+  margin-top: 100px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.graphic p {
+  color: hsl(167, 40%, 24%);
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.graphic-content,
+.photo-content {
+  margin-top: 130px;
+}
+
+.photography h3 {
+  color: hsl(198, 62%, 26%);
+  margin-top: 100px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 25px;
+}
+.photography p {
+  color: hsl(198, 62%, 26%);
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 14px;
+}
+section h2 {
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: hsl(232, 10%, 69%);
+  letter-spacing: 6px;
+  margin-top: 100px;
+}
+.card {
+  display: flex;
+  margin: 40px 120px;
+}
+.card-item {
+  padding: 40px 0px;
+  width: 40%;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  color: hsl(232, 10%, 55%);
+  line-height: 1.6;
+}
+
+.card-item img {
+  border-radius: 100%;
+  max-width: 60px;
+}
+
+.card-item h4 {
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: hsl(212, 27%, 19%);
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.card-text {
+  margin-top: 50px;
+}
+.card-profile {
+  font-size: 12px;
+}
+
+.final-section {
+  display: flex;
+}
+.final-section img {
+    max-width: 25%;
+}
+
+footer {
+  background-color: hsl(168, 35%, 56%);
+  text-align: center;
+}
+footer h2 {
+  margin: 0;
+  text-align: center;
+  font-family: "Barlow", serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: hsl(167, 40%, 24%);
+  font-size: 30px;
+  padding: 50px;
+  letter-spacing: 1px;
+}
+footer a {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: hsl(167, 40%, 24%);
+  padding: 20px;
+  margin-top: 30px;
+}
+.icon {
+  padding: 65px 65px 50px 65px;
+}
+.icon img {
+  padding: 10px;
+}
