@@ -1,11 +1,33 @@
-:root {
-  --primary-color: black;
-}
-
-* {
+/*CSS reset- Box sizing rules */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
 /* Header section */
 
 body {
@@ -305,7 +327,7 @@ footer a {
 
 /* Media querie mobile ///////////////////////////////////*/
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1640px) {
   .ham,
   .container-img-mob,
   .container-mob,
@@ -421,7 +443,7 @@ footer a {
   }
 
   .menu_show {
-      left: 4rem;
+    left: 4rem;
   }
 
   .transform-content-mob,
